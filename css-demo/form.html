@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./form.css">
+
+    <title>form</title>
+</head>
+<body>
+    <h1>טופס הצטרפות</h1>
+    <div>
+        <form>
+            <label for="name">שם:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="phone">טלפון:</label>
+            <input type="tel" id="phone" name="phone" required
+            
+            <label for="product">בחר מוצר:</label>
+            <select id="product" name="product" required>
+                <option value="" disabled selected>בחר מוצר</option>
+                <option value="product1">חולצה מסי</option>
+                <option value="product2">חולצה ערן זהבי</option>
+                <option value="product3">לאפה שווארמה</option>
+            </select>
+            
+            
+            <input type="submit" value="שלח">
+
+            <p><a href="./index.html">back</a></p>
+        </form>
+    </div>
+</body>
+</html>
